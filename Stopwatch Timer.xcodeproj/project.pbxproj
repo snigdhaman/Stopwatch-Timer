@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BEC6FD61C2C4B6900B1F411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC6FD51C2C4B6900B1F411 /* AppDelegate.swift */; };
+		8BEC6FD81C2C4B6900B1F411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC6FD71C2C4B6900B1F411 /* ViewController.swift */; };
+		8BEC6FDB1C2C4B6900B1F411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEC6FD91C2C4B6900B1F411 /* Main.storyboard */; };
+		8BEC6FDD1C2C4B6900B1F411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEC6FDC1C2C4B6900B1F411 /* Assets.xcassets */; };
+		8BEC6FE01C2C4B6900B1F411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEC6FDE1C2C4B6900B1F411 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BEC6FD21C2C4B6900B1F411 /* Stopwatch Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stopwatch Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEC6FD51C2C4B6900B1F411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BEC6FD71C2C4B6900B1F411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BEC6FDA1C2C4B6900B1F411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BEC6FDC1C2C4B6900B1F411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEC6FDF1C2C4B6900B1F411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BEC6FE11C2C4B6900B1F411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEC6FCF1C2C4B6900B1F411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BEC6FC91C2C4B6900B1F411 = {
+			isa = PBXGroup;
+			children = (
+				8BEC6FD41C2C4B6900B1F411 /* Stopwatch Timer */,
+				8BEC6FD31C2C4B6900B1F411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEC6FD31C2C4B6900B1F411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC6FD21C2C4B6900B1F411 /* Stopwatch Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEC6FD41C2C4B6900B1F411 /* Stopwatch Timer */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC6FD51C2C4B6900B1F411 /* AppDelegate.swift */,
+				8BEC6FD71C2C4B6900B1F411 /* ViewController.swift */,
+				8BEC6FD91C2C4B6900B1F411 /* Main.storyboard */,
+				8BEC6FDC1C2C4B6900B1F411 /* Assets.xcassets */,
+				8BEC6FDE1C2C4B6900B1F411 /* LaunchScreen.storyboard */,
+				8BEC6FE11C2C4B6900B1F411 /* Info.plist */,
+			);
+			path = "Stopwatch Timer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEC6FD11C2C4B6900B1F411 /* Stopwatch Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEC6FE41C2C4B6900B1F411 /* Build configuration list for PBXNativeTarget "Stopwatch Timer" */;
+			buildPhases = (
+				8BEC6FCE1C2C4B6900B1F411 /* Sources */,
+				8BEC6FCF1C2C4B6900B1F411 /* Frameworks */,
+				8BEC6FD01C2C4B6900B1F411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stopwatch Timer";
+			productName = "Stopwatch Timer";
+			productReference = 8BEC6FD21C2C4B6900B1F411 /* Stopwatch Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEC6FCA1C2C4B6900B1F411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chatterjee, Snigdhaman";
+				TargetAttributes = {
+					8BEC6FD11C2C4B6900B1F411 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = SVW2895E86;
+					};
+				};
+			};
+			buildConfigurationList = 8BEC6FCD1C2C4B6900B1F411 /* Build configuration list for PBXProject "Stopwatch Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEC6FC91C2C4B6900B1F411;
+			productRefGroup = 8BEC6FD31C2C4B6900B1F411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEC6FD11C2C4B6900B1F411 /* Stopwatch Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEC6FD01C2C4B6900B1F411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEC6FE01C2C4B6900B1F411 /* LaunchScreen.storyboard in Resources */,
+				8BEC6FDD1C2C4B6900B1F411 /* Assets.xcassets in Resources */,
+				8BEC6FDB1C2C4B6900B1F411 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEC6FCE1C2C4B6900B1F411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEC6FD81C2C4B6900B1F411 /* ViewController.swift in Sources */,
+				8BEC6FD61C2C4B6900B1F411 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BEC6FD91C2C4B6900B1F411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEC6FDA1C2C4B6900B1F411 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEC6FDE1C2C4B6900B1F411 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEC6FDF1C2C4B6900B1F411 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BEC6FE21C2C4B6900B1F411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BEC6FE31C2C4B6900B1F411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEC6FE51C2C4B6900B1F411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stopwatch Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chatterjee.Snigdhaman.Stopwatch-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BEC6FE61C2C4B6900B1F411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stopwatch Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Chatterjee.Snigdhaman.Stopwatch-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEC6FCD1C2C4B6900B1F411 /* Build configuration list for PBXProject "Stopwatch Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEC6FE21C2C4B6900B1F411 /* Debug */,
+				8BEC6FE31C2C4B6900B1F411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEC6FE41C2C4B6900B1F411 /* Build configuration list for PBXNativeTarget "Stopwatch Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEC6FE51C2C4B6900B1F411 /* Debug */,
+				8BEC6FE61C2C4B6900B1F411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEC6FCA1C2C4B6900B1F411 /* Project object */;
+}
